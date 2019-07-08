@@ -1,104 +1,77 @@
 <!doctype html>
-<html lang="en">
+<html class="h-100" lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Jekyll v3.8.5">
-  <title>Carousel Template · Bootstrap</title>
+  <meta name="description" content="Co-Working in the heart of downtown Louisville, Kentucky. Warp Zone Louisville is a space for game developers, artists, musicians, entrepreneurs, writers, and all other creatives. We host creative technology professionals.">
+  <meta name="author" content="Louisville Makes Games">
+  <title>Warp Zone Louisville - Co-Working in the heart of downtown Louisville, Kentucky</title>
 
-
-
-  <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-  <!-- Custom styles for this template -->
   <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
+ <body class="d-flex flex-column h-100">
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Carousel</a>
+      <div class="container">
+      <a class="navbar-brand" href="#"><img class="logo" src="images/logo-header.png" alt="Warp Zone Louisville - Co-Working in the heart of Downtown Louisville, Kentucky"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <div class="navbar-collapse collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active ">
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#benefits">Benefits</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#membership">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/LouisvilleMakesGames/Code-of-Conduct/blob/master/code-of-conduct.md">Code of Conduct</a>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+      </div>
       </div>
     </nav>
   </header>
 
-  <main role="main">
+  <!-- Begin page content -->
+  <main role="main" class="flex-shrink-0">
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-          <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="carousel-item active" style="background: url(images/andrew-welch-cbi8e7GNwxc-unsplash.jpg);background-size: cover;  background-position: center; ">
+          <div class="darkener"></div>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <h1>Creativity and technology unite</h1>
+              <h3>A collaborative coworking space in the heart of downtown Louisville</h3>
+              <a href="#membership" class="btn btn-primary btn-lg"><i class="ion-md-person"></i>  Become a member</a>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="carousel-item " style="background: url(images/warpzone-co-working-area.jpg);background-size: cover;  background-position: center; ">
+          <div class="darkener"></div>
           <div class="container">
-            <div class="carousel-caption text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <div class="carousel-caption">
+              <h1>Come work with us</h1>
+              <h3>Schedule a tour or free trial day today</h3>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRAQwMmfjd3hQTUqJaGIY4PY-s6-40bsBwYtSAZ-Yjq_DKNw/viewform" target="_blank" class="btn btn-primary btn-lg"><i class="ion-md-calendar"></i> Schedule a tour</a>
             </div>
           </div>
         </div>
+
       </div>
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -110,87 +83,214 @@
       </a>
     </div>
 
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="container pricing">
+    <div class="card-deck mb-3 text-center">
+        <div class="card mb-6 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal"><i class="ion-md-person"></i> Standard plan</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$100 <small class="text-muted">/ mo</small></h1>
+            <ul class="mt-3 mb-4 text-align-left">
+              <li>Electronic key fee $15 *</li>
+              <li>24 hour access</li>
+              <li>Receive mail at our main street address</li>
+              <li>Invite guests †</li>
+              <li>Host public events free</li>
+            </ul>
+            <a class="btn btn-lg btn-block btn-primary" href="#membership">Get started</A>
+          </div>
         </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <div class="card mb-6 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal"><i class="ion-md-people"></i> Company plan</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$65 <small class="text-muted">/ mo*</small></h1>
+            <ul class="mt-3 mb-4 text-align-left">
+              <li>Electronic key fee $15 *</li>
+              <li>Daytime access weekdays 6am - 6pm</li>
+              <li>Receive mail at our main street address</li>
+              <li>Invite guests † </li>
+              <li>Host public events $50 / event</li>
+
+            </ul>
+            <a class="btn btn-lg btn-block btn-primary" href="#membership">Get started</a>
+          </div>
         </div>
       </div>
 
-      <hr class="featurette-divider">
+    <p class="fine-print">* per person<br/>
+      † members responsible for guests and guests are upheld to the code of conduct<br/>
+      </p>
 
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+</div> <!-- /container-->
+
+
+  <div  class="home container">
+
+
+
+
+
+<div class="row page-top">
+  <div class="col-sm-7">
+  <h1 id="membership" >Become a member</h1>
+
+  <p>Our community of developers and other creative folks are special to us. We are more than a co-working space, but an inclusive community of creative collaborators, so we are selective with our memberships for the sake and comfort of our existing community. We think you’ll like that about us.</p>
+  <br/>
+</div>
+<div class="col-sm-5">
+<img src="images/warpzone-classroom-big-table.jpg">
+</div>
+</div>
+
+  <h3>Get your membership started:</h3>
+
+<div class="membership-flow row">
+      <div class="col-lg-3">
+        <a href="https://github.com/LouisvilleMakesGames/Code-of-Conduct/blob/master/code-of-conduct.md" >
+        <i class="big-icon ion-md-paper"></i>
+        <strong>1. Read our Code of Conduct </strong>
+</a>
+      </div><!-- /.col-lg-3 -->
+
+      <div class="col-lg-3">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRAQwMmfjd3hQTUqJaGIY4PY-s6-40bsBwYtSAZ-Yjq_DKNw/viewform" >
+        <i class="big-icon ion-md-calendar"></i>
+        <strong>2. Schedule a tour or free trial workday</strong>
+
+      </a>
+      </div><!-- /.col-lg-3 -->
+
+      <div class="col-lg-3">
+        <a href="2019 Warp Zone Membership Agreement.pdf" >
+        <i class="big-icon ion-md-create"></i>
+        <strong>3. Sign a membership agreement</strong>
+
+        </a>
+      </div><!-- /.col-lg-3 -->
+
+      <div class="col-lg-3">
+        <a href="https://warp-zone-louisville.cobot.me/membership_signup/new?plan_id=ac3d9010bea55f4dc2e7a92858d95cc7" >
+        <i class="big-icon ion-md-card"></i>
+        <strong>4. Sign up for monthly billing</strong>
+
+        </a>
+      </div><!-- /.col-lg-3 -->
+    </div>
+
+
+<hr class="featurette">
+
+    <div id="benefits" class="page-top row">
+          <div class="col-md-7">
+            <br/>
+              <br/>
+
+            <h3 >Work on your schedule</h3>
+            <p class="lead">Our members enjoy access to Warp Zone Louisville 24 hours a day, seven days a week. So you can get an early start, or stay as late as you want, however you want to look at it, we’ve got space for you.</p>
+            <a href="#membership" class="btn btn-primary"><i class="ion-md-person"></i> Become a member</a>
+          </div>
+          <div class="col-md-5">
+            <img src="images/warpzone-co-working-area.jpg">
+          </div>
         </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-        </div>
+
+
+
+<hr class="featurette-divider">
+
+
+<div class="row ">
+      <div class="col-md-7 order-md-2">
+      <h3>Space ammenities include:</h3>
+          <ul>
+            <li>High-speed internet</li>
+            <li>Recieve mail at a Main Street business address</li>
+            <li>Storage lockers</li>
+            <li>Laser printer and scanner</li>
+            <li>Headphones and microphones</li>
+            <li>Monitors, keyboards, and mice</li>
+            <li>13' projector screen</li>
+            <li>Office supplies</li>
+            <li>Refrigerator, watercooler, microwave, toaster oven, coffee maker</li>
+            <li>and a couch to relax when you need a break</li>
+          </ul>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRAQwMmfjd3hQTUqJaGIY4PY-s6-40bsBwYtSAZ-Yjq_DKNw/viewform" target="_blank" class="btn btn-primary"><i class="ion-md-calendar"></i> Schedule a tour</a>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="images/warpzone-lobby.jpg">
+      </div>
+    </div>
+
+
+
+        <hr class="featurette-divider">
+
+    <div class="row">
+
+
+    <div class="col-sm-6">
+      <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.953525885918!2d-85.76230398393217!3d38.257383892017444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a3bfcc2ae3%3A0x193c4bdd6b552ea9!2s607+W+Main+St+%23002%2C+Louisville%2C+KY+40202!5e0!3m2!1sen!2sus!4v1453141025017" width="400" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    <br/>
+
+      <h4><i class="ion-md-pin"></i>  Warp Zone Louisville</h4>
+      612 West Washington St.<br/>
+      Louisville, KY 40202
+
+
       </div>
 
-      <hr class="featurette-divider">
+    <div class="col-sm-6">
+      <img src="images/warpzone-parking.png">
+        <br/>
+          <br/>
+      <i class="ion-md-square" style="color:#e9f165;"></i> Metered parking - West Washinton St $2.25/hr (Go 502 app code 502)<br/>
+      <i class="ion-md-square" style="color:#e935a7;"></i> Science Center Lot - River Road<br/>
+      <i class="ion-md-square" style="color:#31c6ff;"></i> Triangle Lot - River Road $7.35/day (Go 502 app code 815)<br/>
+      <i class="ion-md-square" style="color:#9537b7;"></i> Ali Center Garage<br/>
+      <i class="ion-md-square" style="color:#31ff9d;"></i> Kentucky Center Garage
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-    </div><!-- /.container -->
+    </div>
+    </div>
 
 
-    <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-  </main>
+    <hr class="featurette">
+
+        <div class="page-top row">
+
+    <div class="col-sm-7">
+    <img src="images/warp-zone-kids-class.jpg">
+    </div>
+  <div class="col-sm-5">
+    <img src="images/logo.png">
+    <br/>
+      <br/>
+  <p>Warp Zone Louisville is a space for game developers, artists, musicians, entrepreneurs, writers, and all other creatives. We host creative technology professionals.</p>
+
+
+  <a href="#membership" class="btn btn-primary"><i class="ion-md-person"></i>  Become a member</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRAQwMmfjd3hQTUqJaGIY4PY-s6-40bsBwYtSAZ-Yjq_DKNw/viewform" target="_blank" class="btn btn-primary">Schedule a tour</a>
+
+</div>
+</div>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p class="float-right"><a href="#"> <i class="ion-md-arrow-up"></i> Back to top</a></p>
+    <p class="fine-print">Warp Zone Louisville is run by 501c3 non-profit <a href="louisvillemakesgames.org" target="_blank">Louisville Makes Games</a></p>
+    <p class="fine-print"> Louisville bridge photo by <a href="https://unsplash.com/@andrewwelch3?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">andrew welch</a> on <a href="/search/photos/louisville-bridge?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+  </div>
+</footer>
+
+
+
+
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

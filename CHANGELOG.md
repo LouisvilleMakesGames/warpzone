@@ -6,10 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Started with basic bootstrap theme
 - Add Code of conduct
 - Add MIT LICENSE
 - Update readme
+- initial version of site
 
 
 
