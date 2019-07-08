@@ -1,217 +1,199 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Warp Zone - Louisville's collaborative game development work/education/art space</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
-	<!-- <link href="css/main.css" rel="stylesheet" type="text/css"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.5">
+  <title>Carousel Template · Bootstrap</title>
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Carousel</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
 
-	<div class="page">
+  <main role="main">
 
-
-
-		<!-- <div class="logo wave">
-			<canvas id="canvas" width="400" height="100"></canvas> 
-		</div> -->
-<div class="well">
-<h1>Warp Zone Louisville</h1>
-<p>
-	Game Dev Lou, Louisville's game developer community, is trying to create a physical space for game development. The physical space is tentatively called "Warp Zone". Warp Zone will host community meetups, special events, educational classes, as well as serve as co-working office space for small game studios and other technology workers.
-</p>
-<p>
-	Please fill out this form so we can track interest and plan for size and budget.
-</p>
-</div>
-
-<div class="col-sm-6">
-
-	<form action="https://docs.google.com/forms/d/1VKfKQlV7oM4besDlU-6Ia7V9uCjuVQSYg7NwKUhx2yo/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit="">
-
-	<div class="form-group">
-		<label for="entry_100692309">First Name<span class="required">*</span></label>
-		<input type="text" class="form-control" name="entry.100692309" id="entry_100692309" dir="auto" aria-label="First Name">
-	</div>
-
-	<div class="form-group">
-		<label for="entry_1876977754">Last Name<span class="required">*</span></label>
-		<input type="text" class="form-control" name="entry.1876977754" id="entry_1876977754" dir="auto" aria-label="Last Name">
-	</div>
-		
-	<div class="form-group">
-		<label for="entry_960654289">Studio Name</label>
-		<input type="text"  class="form-control" name="entry.960654289" id="entry_960654289" dir="auto" aria-label="Studio Name">
-	</div>
-
-	<div class="form-group">
-		<label for="entry_1905690947">Email Address<span class="required">*</span></label>
-		<input type="email"  class="form-control"  name="entry.1905690947" id="entry_1905690947" dir="auto" aria-label="Email Address">
-	</div>
-		
-
-	
-
-
-	<div class="form-group">
-		<label for="entry_704955266">Where should we put the space?<span class="required">*</span></label>
-		<select class="form-control" name="entry.704955266" id="entry_704955266">
-			<option>highlands</option>
-			<option>NewLou (market)</option>
-			<option>UofL</option>
-			<option>Fransford ( clifton )</option>
-			<option>West end (portland)</option>
-			<option>other</option>
-		</select>
-	</div>
-	<!--
-		<ul class="ss-choices" role="radiogroup" aria-label="Where should we put the space.">
-		<li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.1342154575" value="highlands" id="group_1342154575_1" role="radio" class="ss-q-radio" aria-label="highlands">
-		</span>
-		<span class="ss-choice-label">highlands</span>
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.1342154575" value="NewLou (market)" id="group_1342154575_2" role="radio" class="ss-q-radio" aria-label="NewLou (market)">
-		</span>
-		<span class="ss-choice-label">NewLou (market)</span>
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.1342154575" value="UofL" id="group_1342154575_3" role="radio" class="ss-q-radio" aria-label="UofL">
-		</span>
-		<span class="ss-choice-label">UofL</span>
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.1342154575" value="Fransford ( clifton )" id="group_1342154575_4" role="radio" class="ss-q-radio" aria-label="Fransford ( clifton )">
-		</span>
-		<span class="ss-choice-label">Fransford ( clifton )</span>
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.1342154575" value="West end (portland)" id="group_1342154575_5" role="radio" class="ss-q-radio" aria-label="West end (portland)">
-		</span>
-		<span class="ss-choice-label">West end (portland)</span>
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.1342154575" value="__other_option__" id="group_1342154575_6" role="radio" class="ss-q-radio ss-q-other-toggle">
-		</span>
-		<span class="ss-choice-label">Other:</span>
-		</label>
-		<span class="ss-q-other-container ">
-		<input type="text" name="entry.1342154575.other_option_response" class="form-control" id="entry_1342154575_other_option_response" dir="auto" aria-label="Other">
-		</span>
-		</li>
-		</ul>
-	-->			
-
-	<div class="form-group">
-		<label for="entry_1604458496">Are you a game developer?<span class="required">*</span></label>
-		<select class="form-control" name="entry.1604458496" id="entry_1604458496">
-			<option>No</option>
-			<option>Yes, Full Time</option>
-			<option>Yes, Part Time</option>
-		</select>
-	</div>
-
-	<div class="form-group">
-		<label for="entry_938916465">What kind of membership would you consider committing to?<span class="required">*</span></label>
-		<select class="form-control" name="entry.938916465" id="entry_938916465">
-			<option>~$200/month</option>
-			<option>~$150/month</option>
-			<option>~$100/month</option>
-			<option>~$50/month</option>
-			<option>~$0/month</option>
-			<option >Other:</option>
-		</select>
-	</div>
-	<!-- 
-		<ul class="ss-choices" role="radiogroup" aria-label="What kind of membership would you consider committing to? Give a ballpark estimate ">
-		<li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.938916465" value="~$200/month" id="group_938916465_1" role="radio" class="ss-q-radio" aria-label="~$200/month">
-		</span>
-
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.938916465" value="~$150/month" id="group_938916465_2" role="radio" class="ss-q-radio" aria-label="~$150/month">
-		</span>
-
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.938916465" value="~$100/month" id="group_938916465_3" role="radio" class="ss-q-radio" aria-label="~$100/month">
-		</span>
-
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.938916465" value="~$50/month" id="group_938916465_4" role="radio" class="ss-q-radio" aria-label="~$50/month">
-		</span>
-
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.938916465" value="~$0/month" id="group_938916465_5" role="radio" class="ss-q-radio" aria-label="~$0/month">
-		</span>
-
-		</label>
-		</li> <li class="ss-choice-item">
-		<label>
-		<span class="ss-choice-item-control ">
-		<input type="radio" name="entry.938916465" value="__other_option__" id="group_938916465_6" role="radio" class="ss-q-radio ss-q-other-toggle">
-		</span>
-
-		</label>
-		<span class="ss-q-other-container ">
-		<input type="text" name="entry.938916465.other_option_response" class="form-control" id="entry_938916465_other_option_response" dir="auto" aria-label="Other">
-		</span>
-		</li>
-		</ul> 
-	-->
-
-	<div class="checkbox">
-	  <label for="entry_844233963">
-	    <input type="checkbox" name="entry.844233963" id="entry_844233963" role="checkbox"> Please add me to the Warp Zone mailing list.
-	  </label>
-	</div>
-
-	<div class="form-group">
-		<label for="entry_368107348">General Feedback<span class="required">*</span></label>
-		<textarea class="form-control" name="entry.368107348" id="entry_368107348" dir="auto" aria-label="General Feedback"></textarea>
-	</div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
 
-	<input type="submit" name="submit" value="Submit" id="ss-submit" class="btn btn-primary">
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-	</form>
-</div><!-- .col-sm-6 -->
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
 
-</div> <!-- page -->
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
 
 
-<script src="https://apis.google.com/js/client.js?onload=OnLoadCallback"></script>
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<!-- <script src="js/logo.js" ></script>
- -->
 </body>
 </html>

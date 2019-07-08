@@ -1,1 +1,0 @@
-rsync -avP --delete ./ glasses:/ivy/warpzone/
