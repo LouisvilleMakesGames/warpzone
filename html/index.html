@@ -12,13 +12,13 @@
   <meta property="og:title" content="Warp Zone Louisville - Co-Working in the heart of downtown Louisville, Kentucky">
   <meta property="og:url" content="http://warpzonelouisville.com">
   <meta property="og:description" content="Warp Zone Louisville is a space for game developers, artists, musicians, entrepreneurs, writers, and all other creatives. We host creative technology professionals.">
-  <meta property="og:image" content="/images/warpzone-coworking.jpg">
+  <meta property="og:image" content="/images/warpzone-coworking-promo.jpg">
 
   <meta name="twitter:site" content="Warp Zone Louisville">
   <meta name="twitter:title" content="Warp Zone Louisville - Co-Working in the heart of downtown Louisville, Kentucky">
   <meta name="twitter:creator" content="LouMakesGames">
   <meta name="twitter:description" content="Warp Zone Louisville is a space for game developers, artists, musicians, entrepreneurs, writers, and all other creatives. We host creative technology professionals.">
-  <meta name="twitter:image" content="/images/warpzone-coworking.jpg">
+  <meta name="twitter:image" content="/images/warpzone-coworking-promo.jpg">
 
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -170,9 +170,9 @@
 
 
 
-<div class="row page-top">
+<div id="membership" class="row page-top">
   <div class="col-sm-7">
-  <h1 id="membership" >Become a member</h1>
+  <h1 >Become a member</h1>
 
   <p>Our community of developers and other creative folks are special to us. We are more than a co-working space, but an inclusive community of creative collaborators, so we are selective with our memberships for the sake and comfort of our existing community. We think you’ll like that about us.</p>
   <br/>
@@ -331,6 +331,12 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+<script>
+$(document).on('click','.navbar-collapse',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+</script>
 </body>
 </html>

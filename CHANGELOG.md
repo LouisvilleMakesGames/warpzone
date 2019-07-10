@@ -6,10 +6,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [0.1.2] - 2019-07-09
+
+### Changes
+- Update opengraph image
+
+### Bug Fixes
+- Add margin to images
+- Close menu when clicking a nav link
+
+
+
 ## [0.1.1] - 2019-07-09
 
 ### Added
 - Add Open Graph and twitter sharing tags
+
+### Bug Fixes
 - Fix broken link in footer
 - Change workday to work day
 
