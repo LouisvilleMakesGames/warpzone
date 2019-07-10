@@ -6,22 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2019-07-09
+
+### Added
+- Add Open Graph and twitter sharing tags
+- Fix broken link in footer
+- Change workday to work day
+
+
+## [0.0.0] - 2019-07-09
+
+### Added
 - Add Code of conduct
 - Add MIT LICENSE
 - Update readme
 - initial version of site
-
-
-
----
-
-## [0.0.0] - 2019-07-08
-
-### Added
--
-
-### Changed
--
-
-### Bug Fixes
--
