@@ -145,7 +145,7 @@ footer{
   background: #343a40;
   position: fixed;
   bottom: 0px;
-  padding: 4px 0 0 0 !important;
+  padding: 5px 0 !important;
 }
 footer a {
   text-decoration: underline;
@@ -153,6 +153,9 @@ footer a {
 }
 footer a:hover{
   color: white;
+}
+footer p{
+  margin: 0;
 }
 .featurette div{
   vertical-align: top;
@@ -165,6 +168,8 @@ footer a:hover{
   text-decoration: none;
 }
 .membership-flow .big-icon{
+  border: 1px solid white;
+  border-radius: 25px;
   color: #6bc9ce;
   font-size: 90px;
   margin: 0 auto 20px auto;
@@ -174,10 +179,11 @@ footer a:hover{
   height: 150px;
   padding: 10px 10px 10px 10px;
   position: relative;
-  transition: top 2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .membership-flow .big-icon:hover{
-  top: -5px;
+  color: #ccc;
+  background:white;
 }
 .fine-print{
   font-size: 13px;

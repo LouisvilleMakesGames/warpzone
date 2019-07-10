@@ -6,24 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.0] - 2019-07-09
-
-### Changes
-- Make external links open in new tab
-
-
 ## [0.1.1] - 2019-07-09
 
 ### Changes
+- Update icon styling of membership flow
+- Make external links open in new tab
 - Update opengraph image
-
-### Bug Fixes
-- Add margin to images
-- Close menu when clicking a nav link
-
-
-
-## [0.1.0] - 2019-07-09
 
 ### Added
 - Add Open Graph and twitter sharing tags
@@ -31,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Bug Fixes
 - Fix broken link in footer
 - Change workday to work day
+- Add margin to images
+- Close menu when clicking a nav link
 
 
 ## [0.0.0] - 2019-07-09
