@@ -6,8 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2019-07-09
 
-## [0.1.2] - 2019-07-09
+### Changes
+- Make external links open in new tab
+
+
+## [0.1.1] - 2019-07-09
 
 ### Changes
 - Update opengraph image
@@ -18,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-## [0.1.1] - 2019-07-09
+## [0.1.0] - 2019-07-09
 
 ### Added
 - Add Open Graph and twitter sharing tags
