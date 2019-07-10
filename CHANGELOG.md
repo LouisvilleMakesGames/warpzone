@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [0.1.2] - 2019-07-010
+
+
+### Added
+- Headings for location and parking
+
+### Bug Fixes
+- Fix amenities typo
+
+
 ## [0.1.1] - 2019-07-09
 
 ### Changes
