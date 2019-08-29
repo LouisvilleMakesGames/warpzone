@@ -57,10 +57,30 @@ a i{
   margin-right: 5px;
 }
 .card{
+  padding: 0;
   background: #6bc9ce;
   color: white;
+  position: relative;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  min-height: 425px;
 }
+.card .btn-container{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+.card-header{
+  margin: 0px;
+}
+
 .card .btn{
+position:relative;
+  margin: 0 auto;
   text-decoration: none;
   background: #6bc9ce;
   border-color: white;
