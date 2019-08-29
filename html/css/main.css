@@ -10,6 +10,8 @@ html, body {
 .logo{
   max-width: 300px;
 }
+
+
 .carousel {
   margin-bottom: 4rem;
   text-align: center;
@@ -28,6 +30,7 @@ html, body {
   height: 100%;
 }
 .btn-primary{
+  text-decoration: none;
   background: transparent;
   color: white;
   border-color: white;
@@ -147,11 +150,11 @@ footer{
   bottom: 0px;
   padding: 5px 0 !important;
 }
-footer a {
+a {
   text-decoration: underline;
   color: white;
 }
-footer a:hover{
+ a:hover{
   color: white;
 }
 footer p{
@@ -181,6 +184,12 @@ footer p{
   position: relative;
   transition: all 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 990px) {
+  .membership-flow .big-icon{
+    margin-top: 75px;
+  }
+}
 .membership-flow .big-icon:hover{
   color: #ccc;
   background:white;
@@ -192,4 +201,19 @@ footer p{
 
 img{
   margin: 10px 0;
+}
+
+
+@media screen and (max-width: 990px) {
+  .section{
+    margin-top: 75px;
+  }
+}
+
+strong{
+  letter-spacing: 1px;
+}
+
+.google-map{
+  margin-bottom: 10px;
 }
