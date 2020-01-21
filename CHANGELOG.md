@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+### Added
+- Make addresses clearer
+- Add event pricing
+
 ### Bug Fixes
 - Fix broken link in footer
 - fix typo in banner

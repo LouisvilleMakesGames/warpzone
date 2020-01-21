@@ -1,6 +1,6 @@
 # Code of Conduct
 
-This project is owned by [Louisville Makes Games](louisvillemakesgames.org) (LMG), a 501(c)(3) non-profit organization designed to futher game development in the city of Louisville, Kentucky. This particular project is the website for our physical co-working space, [Warp Zone Louisville(warpzonelouisville.com). While it is meintained by the board of LMG, we accept community help and involvement inthe form of Github issues and pull requests to fix bugs and improve the site. Please note that the working of this Code of Conduct refers to the rules for our physical events in a physical space, we carry the same rules over to ous digital spaces such as our community open source projects.
+This project is owned by [Louisville Makes Games](louisvillemakesgames.org) (LMG), a 501(c)(3) non-profit organization designed to further game development in the city of Louisville, Kentucky. This particular project is the website for our physical co-working space, [Warp Zone Louisville(warpzonelouisville.com). While it is maintained by the board of LMG, we accept community help and involvement in the form of Github issues and pull requests to fix bugs and improve the site. Please note that the working of this Code of Conduct refers to the rules for our physical events in a physical space, we carry the same rules over to our digital spaces such as our community open source projects.
 
 All issues and requests will be subject to approval by the LMG board, and all contributors to [warpzonelouisville.com](warpzonelouisville.com) are expected to abide by this code of conduct.
 
@@ -14,7 +14,7 @@ We insist that everyone participates in this open source project remains mindful
 - Actively listening to others and not dominating discussions.
 - Respecting physical and emotional boundaries. Always ask before touching, and check in before discussing topics that may be triggering.
 - Not making assumptions about identity, experiences, or preferred pronouns.
-- Not using words that are racist, sexist, homophobic, classist, transphobic, cissexist or ableist.
+- Not using words that are racist, sexist, homophobic, classist, transphobic, cissexist, or ableist.
 - Humbly accepting respectful correction (or correcting yourself!), keeping in mind that the impact of your words on other people is more important than your intent.
 
 ## Unacceptable Behavior
